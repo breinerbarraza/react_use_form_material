@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importar fuente desde Google Fonts (opcional si no usas _link_ en HTML) */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fafb; /* Gris claro para mejor contraste */
+  padding: 30px;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  color: #111827; /* Gris oscuro */
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}

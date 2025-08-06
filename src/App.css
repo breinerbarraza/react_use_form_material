@@ -1,0 +1,19 @@
+/* Si necesitas aplicar estilos personalizados específicos de la App */
+.app-container {
+  @apply min-h-screen bg-white text-gray-800 p-4;
+}
+
+/* Ejemplo de clase para centrar contenido */
+.centered {
+  @apply flex items-center justify-center;
+}
+
+/* Clase para títulos principales */
+.main-title {
+  @apply text-2xl font-semibold text-center mb-4;
+}
+
+/* Clase para contenedores con sombra */
+.card {
+  @apply bg-white shadow-md rounded-xl p-6;
+}
